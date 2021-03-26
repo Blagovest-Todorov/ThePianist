@@ -23,7 +23,6 @@ namespace ThePianist
                     .Split('|', StringSplitOptions.RemoveEmptyEntries);
 
                 pieces.Add(data[0], new PieceInfo{ Composer = data[1], Key = data[2] });
-
             }
 
             string command = String.Empty;
